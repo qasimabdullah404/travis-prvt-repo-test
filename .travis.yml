@@ -1,0 +1,10 @@
+os: linux
+dist: focal
+
+language: node_js
+node_js:
+  - 14.17.3
+
+script:
+  - node -v
+  - npm -v
